@@ -24,24 +24,24 @@
             <div class="form-group error">
                 <label class="col-form-label">Email*</label>
                 <input formControlName="email" type="text" class="form-control" placeholder="example@gmail.com">
-                <i class="fa fa-check-circle"></i>
-                <i class="fa fa-exclamation-circle"></i>
+                <i *ngIf="email.valid && email.touched" class="fa fa-check-circle"></i>
+                <i *ngIf="email.invalid && email.touched" class="fa fa-exclamation-circle"></i>
                 <small *ngIf="email.invalid && email.touched" class="text-danger error-text">Please enter valid
                     email</small>
             </div>
             <div class="form-group error">
                 <label class="col-form-label">Phone*</label>
                 <input formControlName="phone" type="tel" class="form-control" maxlength="10" placeholder="XXXXXXXXXX">
-                <i class="fa fa-check-circle"></i>
-                <i class="fa fa-exclamation-circle"></i>
+                <i *ngIf="phone.valid && phone.touched" class="fa fa-check-circle"></i>
+                <i *ngIf="phone.invalid && phone.touched" class="fa fa-exclamation-circle"></i>
                 <small *ngIf="phone.invalid && phone.touched" class="text-danger error-text">Please enter valid phone
                     number</small>
             </div>
             <div class="form-group error">
                 <label class="col-form-label">Message*</label>
                 <textarea formControlName="message" class="form-control" placeholder="Your message here..."></textarea>
-                <i class="fa fa-check-circle hidden"></i>
-                <i class="fa fa-exclamation-circle hidden"></i>
+                <i *ngIf="message.valid && message.touched" class="fa fa-check-circle"></i>
+                <i *ngIf="message.invalid && message.touched" class="fa fa-exclamation-circle"></i>
                 <small *ngIf="message.invalid && message.touched" class="text-danger error-text">Please enter your
                     message</small>
             </div>
