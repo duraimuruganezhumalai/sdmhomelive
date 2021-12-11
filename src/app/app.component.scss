@@ -53,9 +53,10 @@ footer .social_icon, footer .menu{
 }
 footer .social_icon li {
     list-style: none;
+    
 }
 footer .social_icon li a, footer .menu li a{
-    font-size: 2rem;
+    font-size: 1rem;
     color: #FFF;
     margin: 0 10px;
     display: inline-block;
@@ -65,7 +66,8 @@ footer .social_icon li a:hover{
     transform: translateY(-10px);
 }
 footer .menu li a{
-    font-size: 1.2rem;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
     color: #FFF;
     margin: 0 10px;
     display: inline-block;
@@ -78,10 +80,11 @@ footer .menu li a:hover{
 }
 footer p{
     color: #FFF;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 footer .wave{
     position: absolute;
