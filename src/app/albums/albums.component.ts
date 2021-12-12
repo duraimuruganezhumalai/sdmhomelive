@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-albums',
   templateUrl: './albums.component.html',
@@ -7,7 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AlbumsComponent implements OnInit {
 
-  constructor() { }
+
+ 
+  constructor() { 
+    // $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+    //   event.preventDefault();
+    //   $(this).ekkoLightbox();
+    // });
+   
+  }
 
   ngOnInit(): void {
   }
