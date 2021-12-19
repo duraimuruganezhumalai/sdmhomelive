@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
-import { AlbumsComponent } from './albums/albums.component';
+import { AlbumComponent } from './album/album.component';
 import { WeddingComponent } from './wedding/wedding.component';
 import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
@@ -17,17 +17,22 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 
 
+
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     AboutComponent,
     PortfolioComponent,
-    AlbumsComponent,
+    AlbumComponent,
     WeddingComponent,
     ContactComponent,
     LoginComponent,
     RegisterComponent
+    
    
   ],
   imports: [
@@ -35,6 +40,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
+    
+ 
     BrowserAnimationsModule
   ],
   providers: [
