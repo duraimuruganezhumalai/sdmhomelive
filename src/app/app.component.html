@@ -6,9 +6,11 @@
         aria-controls="navbarExample01" aria-expanded="false" aria-label="Toggle navigation">
         <i class="fa fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse justify-content-around" id="navbarExample01">
-        <img class="mr-5" src="../assets/bootstrap-logo.png" height="17" alt="" loading="lazy" />
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarExample01">
+        <span class="text-capitalize">
+        <img class="" src="../assets/sdmphotoeffect_logo.png" width="60" alt="" loading="lazy" />
+       simple design</span>
+        <ul class="navbar-nav mb-2 mb-lg-0">
           <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
             <a class="nav-link" aria-current="page" routerLink="/home">Home</a>
           </li>
@@ -27,11 +29,15 @@
           <li class="nav-item" routerLinkActive="active" skipLocationChange="true">
             <a class="nav-link" routerLink="/contact">Contact</a>
           </li>
-          <li class="nav-item signin-ml border-radius-10" routerLinkActive="active" skipLocationChange="true">
+          <!-- <li class="nav-item signin-ml border-radius-10" routerLinkActive="active" skipLocationChange="true">
             <button type="button" class="btn btn-warning nav-link btn-sm" routerLink="/home/login" data-toggle="modal"
-              data-target="#myModal">Sign in</button>
-          </li>
+              data-target="#myModal">+91 9597118896 +91 8695592555</button>
+          </li> -->
+          
         </ul>
+        <li class="nav-item list-unstyled">
+          <span class="nav-link">+918695592555</span>
+          </li>
       </div>
     </div>
   </nav>
