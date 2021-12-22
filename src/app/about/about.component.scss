@@ -27,9 +27,9 @@
     font-family: "Poppins",sans-serif;
     margin-bottom: 10px;
 }
-h2{
-    line-height: 1.5em;
-}
+// h2{
+//     line-height: 1.5em;
+// }
 .main_title {
     text-align: center;
     margin-bottom: 75px;
@@ -40,9 +40,10 @@ h2{
     font-weight: 300;
     margin-bottom: 0;
 }
-p {
+.container p {
     margin-top: 0;
     font-family: "Poppins",sans-serif;
+    line-height: 1.7em;
 }
 .service_inner {
     margin-bottom: -30px;
@@ -82,7 +83,7 @@ $li-padding: 5px;
 
 // colors
 $background-color: #1a1a1a;
-$progressbar-title-color: #fff;
+$progressbar-title-color: #000;
 
 $red: #c0392b;
 $blue: #1199ff;
@@ -93,7 +94,7 @@ $green: #27ae60;
 
 
 .mt_200{
-    margin-top: 200px;
+    margin-top: 16%;
 }
 
 $animation-delay: .7s;
@@ -114,11 +115,14 @@ $animation-delay: .7s;
 //   -webkit-box-sizing: border-box;
 //   box-sizing: border-box;
 // }
-
+.progressbar-title h3{
+  font-family: "Poppins",sans-serif;
+  font-size: 16px;
+}
 
 .skills-bar-container{
   position: relative;
-  width: 40%;
+  width: 100%;
   min-width: 300px;
   top: 50%;
   left: 50%;
@@ -166,37 +170,37 @@ $animation-delay: .7s;
         -webkit-animation-fill-mode: both;
         animation-fill-mode: both;
       }
-      #progress-html{
-        -webkit-animation-name: progress-html;
-        animation-name: progress-html;
+      #progress-photoshop{
+        -webkit-animation-name: progress-photoshop;
+        animation-name: progress-photoshop;
         -webkit-animation-delay: $animation-delay;
         animation-delay: $animation-delay;
       }
 
-      #progress-css{
-        -webkit-animation-name: progress-css;
-        animation-name: progress-css;
+      #progress-illustrator{
+        -webkit-animation-name: progress-illustrator;
+        animation-name: progress-illustrator;
         -webkit-animation-delay: $animation-delay*2;
         animation-delay: $animation-delay*2;
       }
 
-      #progress-javascript{
-        -webkit-animation-name: progress-javascript;
-        animation-name: progress-javascript;
+      #progress-lightroom{
+        -webkit-animation-name: progress-lightroom;
+        animation-name: progress-lightroom;
         -webkit-animation-delay:$animation-delay*3;
         animation-delay: $animation-delay*3;
       }
 
-      #progress-php{
-        -webkit-animation-name: progress-php;
-        animation-name: progress-php;
+      #progress-premiere{
+        -webkit-animation-name: progress-premiere;
+        animation-name: progress-premiere;
         -webkit-animation-delay: $animation-delay*4;
         animation-delay: $animation-delay*4;
       }
 
-      #progress-angular{
-        -webkit-animation-name: progress-angular;
-        animation-name: progress-angular;
+      #progress-aftereffect{
+        -webkit-animation-name: progress-aftereffect;
+        animation-name: progress-aftereffect;
         -webkit-animation-delay: $animation-delay*5;
         animation-delay: $animation-delay*5;
       }
@@ -210,20 +214,20 @@ $animation-delay: .7s;
 .progressorange{background-color:$orange;}
 .progressgreen{background-color:$green;}
 
-@-webkit-keyframes progress-html{0%{width: 0%;} 100%{ width: 100%;}}
-@-webkit-keyframes progress-css{0%{width: 0%;} 100%{ width: 90%;}}
-@-webkit-keyframes progress-javascript{0%{width: 0%;} 100%{ width: 70%;}}
-@-webkit-keyframes progress-php{0%{width: 0%;} 100%{ width: 55%;}}
-@-webkit-keyframes progress-angular{0%{width: 0%;} 100%{ width: 65%;}}
+@-webkit-keyframes progress-photoshop{0%{width: 0%;} 100%{ width: 95%;}}
+@-webkit-keyframes progress-illustrator{0%{width: 0%;} 100%{ width: 85%;}}
+@-webkit-keyframes progress-lightroom{0%{width: 0%;} 100%{ width: 90%;}}
+@-webkit-keyframes progress-premiere{0%{width: 0%;} 100%{ width: 95%;}}
+@-webkit-keyframes progress-aftereffect{0%{width: 0%;} 100%{ width: 70%;}}
 
-@-moz-keyframes progress-html{0%{width: 0%;} 100%{ width: 100%;}}
-@-moz-keyframes progress-css{0%{width: 0%;} 100%{ width: 90%;}}
-@-moz-keyframes progress-javascript{0%{width: 0%;} 100%{ width: 70%;}}
-@-moz-keyframes progress-php{0%{width: 0%;} 100%{ width: 55%;}}
-@-moz-keyframes progress-angular{0%{width: 0%;} 100%{ width: 65%;}}
+@-moz-keyframes progress-photoshop{0%{width: 0%;} 100%{ width: 95%;}}
+@-moz-keyframes progress-illustrator{0%{width: 0%;} 100%{ width: 85%;}}
+@-moz-keyframes progress-lightroom{0%{width: 0%;} 100%{ width: 90%;}}
+@-moz-keyframes progress-premiere{0%{width: 0%;} 100%{ width: 95%;}}
+@-moz-keyframes progress-aftereffect{0%{width: 0%;} 100%{ width: 70%;}}
 
-@keyframes progress-html{0%{width: 0%;} 100%{ width: 100%;}}
-@keyframes progress-css{0%{width: 0%;} 100%{ width: 90%;}}
-@keyframes progress-javascript{0%{width: 0%;} 100%{ width: 70%;}}
-@keyframes progress-php{0%{width: 0%;} 100%{ width: 55%;}}
-@keyframes progress-angular{0%{width: 0%;} 100%{ width: 65%;}}
+@keyframes progress-photoshop{0%{width: 0%;} 100%{ width: 95%;}}
+@keyframes progress-illustrator{0%{width: 0%;} 100%{ width: 85%;}}
+@keyframes progress-lightroom{0%{width: 0%;} 100%{ width: 90%;}}
+@keyframes progress-premiere{0%{width: 0%;} 100%{ width: 95%;}}
+@keyframes progress-aftereffect{0%{width: 0%;} 100%{ width: 70%;}}

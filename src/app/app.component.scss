@@ -1,8 +1,8 @@
-$primary-color: blue;
+// $primary-color: blue;
 $secondary-color: green;
 $margin-top: 25px;
 
-$font-weight : 550;
+$font-weight : 500;
 $white-color : #FFF;
 $footer-color: #fc5d0952;
 $margin-left: 14rem;
@@ -25,6 +25,22 @@ $margin-left: 14rem;
 // .signin-ml{
 // margin-left: $margin-left;
 // }
+.fnt{
+font-size: 16px;    
+font-family: "Poppins", sans-serif;
+}
+
+// .fnt ul li a{
+//     color: #000 !important;
+// }
+.fnt ul li a:hover{
+    color: #d97f3e;
+}
+.fnt ul li a:active{
+    color: #d97f3e;
+}
+
+
 
 .mt-footer{
 margin-top: 200px;

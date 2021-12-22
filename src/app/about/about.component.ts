@@ -14,11 +14,11 @@ export class AboutComponent implements OnInit {
 
 
     var lang = {
-      "html": "100%",
-      "css": "90%",
-      "javascript": "70%",
-      "php": "55%",
-      "angular": "65%"
+      "photoshop": "95%",
+      "illustrator": "85%",
+      "lightroom": "90%",
+      "premiere": "90%",
+      "aftereffect": "70%"
     };
     
     var multiply = 4;
