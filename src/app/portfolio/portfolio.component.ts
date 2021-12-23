@@ -9,13 +9,16 @@ export class PortfolioComponent implements OnInit {
 
 
 
-  constructor() { 
-    
-    
+  constructor() {
+   
+
   }
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit() {
   
+
+
+  }
+
+
 }
