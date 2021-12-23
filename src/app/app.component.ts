@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-// import GLightbox from 'glightbox';
+
 
 @Component({
   selector: 'app-root',
