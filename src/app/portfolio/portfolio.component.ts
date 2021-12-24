@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare let $:any;
 
 @Component({
   selector: 'app-portfolio',
@@ -7,18 +8,22 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PortfolioComponent implements OnInit {
 
-
+ 
 
   constructor() {
+
    
+    
 
   }
 
-  ngOnInit() {
+  ngOnInit():void {
   
+       $("#horizontal").twentytwenty();
+      $("#horizontal").twentytwenty({
+      orientation: 'horizontal'
+      });
 
 
   }
-
-
 }

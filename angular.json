@@ -39,6 +39,8 @@
               "./node_modules/font-awesome/scss/font-awesome.scss",
               "./node_modules/font-awesome/css/font-awesome.css",
               "./node_modules/fancybox/dist/css/jquery.fancybox.css",
+              "./node_modules/jquery/dist/twentytwenty.css",
+            
              
         
 
@@ -50,7 +52,10 @@
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "./node_modules/jquery.counterup/jquery.counterup.min.js",
               "./node_modules/waypoints/lib/jquery.waypoints.min.js",
-              "./node_modules/fancybox/dist/js/jquery.fancybox.js"
+              "./node_modules/fancybox/dist/js/jquery.fancybox.js",
+              "./node_modules/jquery/dist/jquery.event.move.js",
+              "./node_modules/jquery/dist/jquery.twentytwenty.js"
+            
              
             
             ]

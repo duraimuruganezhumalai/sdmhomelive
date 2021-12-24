@@ -5,11 +5,11 @@
     background: #a770ef;
     background: -webkit-linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
     background: linear-gradient(to right, #a770ef, #cf8bf3, #fdb99b);
+  } 
+  .logo_font{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
   }
-  .container {
-    max-width: 800px;
-  }
-  
   #comparison {
     width: 100%;
     padding-bottom: 100%;
@@ -118,4 +118,23 @@
     background-color: transparent; 
     position: relative;
     outline: none;    
+  }
+  // slider
+  .wrapper{
+    display: flex;
+    width: 1000px;
+    margin: 20px;
+  }
+  .column{
+    width: 50%;
+    margin: 0 20px;
+  }
+  @media screen and (max-width: 767px){
+   .wrapper{
+     flex-direction: column;
+   } 
+   .column{
+     width: 100%;
+     margin: 20px 0;
+   }
   }
