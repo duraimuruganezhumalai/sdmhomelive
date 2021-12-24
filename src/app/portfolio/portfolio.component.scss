@@ -123,9 +123,10 @@
   .wrapper{
     display: flex;
     width: 1000px;
-    margin: 20px;
+    // margin: 20px;
+    margin-top: 30px;
   }
-  .column{
+  .column .column1{
     width: 50%;
     margin: 0 20px;
   }
@@ -133,8 +134,35 @@
    .wrapper{
      flex-direction: column;
    } 
-   .column{
+   .column .column1{
      width: 100%;
      margin: 20px 0;
    }
+  }
+  // -----------------------------------
+  .box img{
+    width: 100%;
+    /* height: 100vh; */
+  }
+  
+  
+  /* Changing twentytwenty css: */
+  /* .twentytwenty{
+    left: 595px!important;
+  } */
+  .twentytwenty-container{
+    /* height: 680px!important; */
+    /* height: 42rem!important; */
+    /* height: 80vh!important; */
+    width: 80%!important;
+    /* width: 80vh!important; */
+    margin: auto;
+    margin-top: 2rem;
+    /* margin-bottom: 1rem; */
+  }
+  .twentytwenty-container2{
+    width: 100%!important;
+    /* width: 80vh!important; */
+    margin: auto;
+    margin-top: 2rem;
   }
