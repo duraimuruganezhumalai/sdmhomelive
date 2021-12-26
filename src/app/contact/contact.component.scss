@@ -1,6 +1,15 @@
 // @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
-
-
+.hero-banner {
+  position: relative;
+  font: 2.5rem 'Poppins', sans-serif;
+  text-shadow: 2px 2px 4px #525252;
+  padding: 285px 0 150px!important;
+  background: url(/assets/contact/fresh_leaf.JPG) no-repeat scroll center center;
+  // background: url(https://preview.colorlib.com/theme/pentax/img/banner/xbanner-2.jpg.pagespeed.ic.riqRGpBoZu.jpg) no-repeat scroll center center;
+  background-size: cover;
+  background-color: #000;
+  opacity: 0.7;
+}
 .contact1{
   font-family: 'Poppins', sans-serif;
 }

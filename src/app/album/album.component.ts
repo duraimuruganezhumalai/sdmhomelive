@@ -33,8 +33,6 @@ export class AlbumComponent implements OnInit {
       $(this).removeClass('transition');
     });
 
-
-
   }
 
 }
