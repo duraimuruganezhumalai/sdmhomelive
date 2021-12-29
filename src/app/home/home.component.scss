@@ -225,3 +225,43 @@ $font-40        : 40px;
 .stat i {
   font-size: 50px;
 }
+// animation
+.main_title {
+  text-align: center;
+  margin-bottom: 165px;
+}
+.main_title h2 {
+  font-size: 36px;
+  font-weight: 600;
+  color: #222;
+  font-family: "Poppins",sans-serif;
+  margin-bottom: 10px;
+}
+// h2{
+//     line-height: 1.5em;
+// }
+.main_title {
+  text-align: center;
+  margin-bottom: 45px;
+}
+.main_title p {
+  font-size: 14px;
+  color: #777;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.container p {
+  margin-top: 0;
+  font-family: "Poppins",sans-serif;
+  line-height: 1.7em;
+}
+#project-animation span{
+  font-size: 40px;
+}
+#project-animation i{
+  font-size: 45px;
+  // color: #16A086;
+}
+#project-animation{
+  font-family: "Poppins",sans-serif;
+}

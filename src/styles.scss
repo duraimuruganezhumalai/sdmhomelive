@@ -2,8 +2,20 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap');
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-.mt-head{
+// html,
+// body {
+//     height: 100%;
+// }
+
+// body {
+//     margin     : 0;
+//     font-family: Roboto, "Helvetica Neue", sans-serif;
+// }
+
+.mt-head {
     margin-top: 150px;
 }
+
+// .main_title h2{
+//     color: #d97f3e !important;
+// }
