@@ -1,6 +1,6 @@
 <header>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top text-capitalize border-btm py-4">
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top text-capitalize border-btm py-4 page">
     <div class="container">
       <p class="font-weight-lighter mb-0">
         <img class="" src="../assets/sdmphotoeffect_logo.png" width="60" alt="" loading="lazy" />
@@ -23,15 +23,18 @@
           <li class="nav-item" routerLinkActive="active" skipLocationChange="true">
             <a class="nav-link" routerLink="/portfolio">Portfolio</a>
           </li>
+
           <li class="nav-item" routerLinkActive="active" skipLocationChange="true">
             <a class="nav-link" routerLink="/album">Album</a>
           </li>
+
           <li class="nav-item" routerLinkActive="active" skipLocationChange="true">
             <a class="nav-link" routerLink="/wedding">Wedding</a>
           </li>
           <li class="nav-item" routerLinkActive="active" skipLocationChange="true">
             <a class="nav-link" routerLink="/contact">Contact</a>
           </li>
+    
           <!-- <li class="nav-item signin-ml border-radius-10" routerLinkActive="active" skipLocationChange="true">
             <button type="button" class="btn btn-warning nav-link btn-sm" routerLink="/home/login" data-toggle="modal"
               data-target="#myModal">+91 9597118896 +91 8695592555</button>
@@ -61,7 +64,8 @@
     <li><a href=""><i class="fa fa-instagram"></i></a></li>
   </ul>
   <ul class="menu pl-0">
-    <li>
+    <!-- <li class="d-flex justify-content-center"> -->
+      <li class="mx-auto text-center">
       <a routerLink="/home">Home</a>
       <a routerLink="/about">About</a>
       <a routerLink="/portfolio">Portfolio</a>
@@ -75,6 +79,9 @@
 <!-- <a id="return-to-top"><i class="fa fa-angle-up"></i></a> -->
 <!-- <div class="content">Scroll Down</div> -->
 <div class="go-top">
-	<!-- <p class="go-top-text">Back To Top</p> -->
+</div>
+<!-- Page Loader -->
+<div class="loader hidden">
+  <img src="/assets/loader.gif" alt="Loading..." />
 </div>
 

@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 declare let $: any;
 
+
+
 @Component({
   selector: 'app-album',
   templateUrl: './album.component.html',
@@ -8,31 +10,24 @@ declare let $: any;
 })
 export class AlbumComponent implements OnInit {
 
+  constructor() { 
 
-
-
-  constructor() {
 
 
   }
 
-  ngOnInit() {
+  ngOnInit(): void {
 
-
-
+    
     $(".fancybox").fancybox({
+      
       openEffect: "none",
       closeEffect: "none"
+      
     });
 
-    $(".zoom").hover(() => {
 
-      $(this).addClass('transition');
-    }, () => {
-
-      $(this).removeClass('transition');
-    });
-
+    
   }
 
 }

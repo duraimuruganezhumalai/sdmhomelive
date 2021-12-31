@@ -14,7 +14,7 @@ const routes: Routes = [
   {path : 'home', component:HomeComponent},
   {path : 'about', component: AboutComponent},
   {path : 'portfolio', component: PortfolioComponent},
-  {path : 'album', component: AlbumComponent},
+  {path : 'album', component : AlbumComponent},
   {path : 'wedding', component : WeddingComponent},
   {path : 'contact', component : ContactComponent},
   {path : 'home/login', component : LoginComponent},

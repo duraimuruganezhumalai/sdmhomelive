@@ -38,12 +38,19 @@ constructor() {
 //     }, 500);
 //   });  
 // }
+
+// $("body").css("overflow","hidden");  
+// $("body").css("overflow","auto"); 
+
+
+
 var btn = $('#button');
 
 $(function(){
 
   //Scroll event
   $(window).scroll(function(){
+    
     var scrolled = $(window).scrollTop();
     if (scrolled > 200) $('.go-top').fadeIn('slow');
     if (scrolled < 200) $('.go-top').fadeOut('slow');
@@ -55,6 +62,17 @@ $(function(){
   });
 
 });
+
+
+
+
+
+window.addEventListener("load", function () {
+  let loader = document.querySelector(".loader");
+  // loader.className += " hidden"; // class "loader hidden"
+});
+
+
 
 }
 

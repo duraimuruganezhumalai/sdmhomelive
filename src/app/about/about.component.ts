@@ -17,7 +17,7 @@ export class AboutComponent implements OnInit {
       "photoshop": "95%",
       "illustrator": "85%",
       "lightroom": "90%",
-      "premiere": "90%",
+      "premiere": "95%",
       "aftereffect": "70%"
     };
     
