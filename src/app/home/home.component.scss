@@ -108,8 +108,8 @@ $font-40        : 40px;
 }
 .fixed-img {
   // padding              : 200px;
-  background-color     : #000000;
-  background-image     : url("/assets/043.jpg");
+  background-color     : #8f8f8f96;
+  background-image     : url("/assets/home/photo_bg_image.jpg");
   background-repeat    : no-repeat;
   background-size      : cover;
   background-attachment: fixed;
@@ -118,6 +118,7 @@ $font-40        : 40px;
   // font-family   : 'Montserrat', sans-serif;
   // text-shadow: 1px 2px 3px rgb(124, 124, 124);
   font-size: 20px;
+  padding: 80px;
 }
 
 // circle
@@ -127,7 +128,7 @@ $font-40        : 40px;
 // }
 
 .circle {
-  background: rgb(143, 143, 143);
+  background: #8f8f8f7a;
   border-radius: 200px;
   color: white;
   height: 400px;
