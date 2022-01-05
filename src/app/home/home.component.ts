@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-declare let $:any;
+declare let $: any;
 
 
 @Component({
@@ -8,19 +8,26 @@ declare let $:any;
   styleUrls: ['./home.component.scss']
 })
 export class HomeComponent implements OnInit {
+  
+  column: any;
 
-
+  constructor() {
   
 
+  }
+ 
+
+ ngOnInit() {
 
 
+  // [...document.querySelectorAll('.first-column')].map(column => {
+  //   column.style.setProperty('--animation', 'slide');
+  //   column.style.setProperty('height', '200%');
+  //   column.innerHTML = column.innerHTML + column.innerHTML;
+  //   });
+
+    $('.counter').counterUp()
+
+  }
   
-
-  constructor() { 
-    
-  }
-  ngOnInit() {
-    $('.counter').counterUp();
-    
-  }
 }
