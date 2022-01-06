@@ -133,6 +133,7 @@ $main-font-weight: 300;
 .btn-gradient { 
   background-color: #f2f2f2;
   transition: background .3s ease-in-out;
+  cursor: default !important;
   
   &:hover {
     color: white;
@@ -358,14 +359,6 @@ $bootstrap-xl: 1200px;
     }
   }
 }
-
-// --- END: custom styling demo --- //
-
-
-// --- BEGIN: style switch --- //
-// This is just styling for the style toggle switch. Mostly copied from https://www.w3schools.com/howto/howto_css_switch.asp
-
-/* The switch - the box around the slider */
 .switch {
   position: relative;
   display: inline-block;
