@@ -9,8 +9,6 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { AlbumComponent } from './album/album.component';
 import { WeddingComponent } from './wedding/wedding.component';
 import { ContactComponent } from './contact/contact.component';
-import { LoginComponent } from './login/login.component';
-import { RegisterComponent } from './register/register.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
@@ -27,9 +25,7 @@ import { CommonModule } from '@angular/common';
     PortfolioComponent,
     AlbumComponent,
     WeddingComponent,
-    ContactComponent,
-    LoginComponent,
-    RegisterComponent
+    ContactComponent
     
    
     
