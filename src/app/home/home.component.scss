@@ -107,36 +107,41 @@ $font-40        : 40px;
   background: #262626;
 }
 .fixed-img {
-  // padding              : 200px;
   background-color     : #8f8f8f96;
   background-image     : url("/assets/home/photo_bg_image.jpg");
   background-repeat    : no-repeat;
   background-size      : cover;
   background-attachment: fixed;
   background-position  : center;
-  // font-family: "Poppins",sans-serif;
-  // font-family   : 'Montserrat', sans-serif;
-  // text-shadow: 1px 2px 3px rgb(124, 124, 124);
   font-size: 20px;
   padding: 80px;
 }
-
-// circle
-// .block {
-//   text-align: center;
-//   vertical-align: middle;
-// }
-
 .circle {
   background: #8f8f8f7a;
   border-radius: 200px;
   color: white;
-  height: 400px;
+  height: 100px;
   font-weight: normal;
-  width: 400px;
+  width: 356px;
   display: table;
   margin: 120px auto;
   padding: 60px;
+}
+@media screen and (max-width:576px) {
+  .circle{
+    height: 0 !important;
+    width: 236px !important;
+    padding: 23px !important;
+    font-size: 16px;
+  }
+  .circle p{
+    padding-top: 55px;
+  }
+  .fixed-img{
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
 }
 .circle p {
   // font-family   : 'Montserrat', sans-serif;
