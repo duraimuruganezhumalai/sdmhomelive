@@ -10,6 +10,8 @@ declare let $:any;
 
 export class AppComponent {
   title = 'firstdevelop';
+  autoyear: number = new Date().getFullYear();
+
 
 
 
@@ -34,7 +36,6 @@ $(function(){
 
 });
 
-
 window.addEventListener("load", function () {
   let loader = document.querySelector(".loader");
   // loader.className += " hidden"; // class "loader hidden"
@@ -45,3 +46,7 @@ window.addEventListener("load", function () {
 }
 
 }
+function newDate() {
+  throw new Error('Function not implemented.');
+}
+
