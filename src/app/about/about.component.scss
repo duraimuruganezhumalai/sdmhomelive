@@ -4,19 +4,12 @@
   text-shadow    : 2px 2px 4px #525252;
   padding        : 205px 0 150px !important;
   background     : url(/assets/about/camera_about_us.webp) no-repeat scroll center center;
-  // background: url(https://preview.colorlib.com/theme/pentax/img/banner/xbanner-2.jpg.pagespeed.ic.riqRGpBoZu.jpg) no-repeat scroll center center;
   background-size: cover;
 }
 .p_50 {
   padding-top   : 50px;
   padding-bottom: 50px;
 }
-
-// .main_title {
-//   text-align   : center;
-//   margin-bottom: 165px;
-// }
-
 .main_title h2 {
   font-size    : 36px;
   font-weight  : 600;
@@ -24,10 +17,6 @@
   font-family  : "Poppins", sans-serif;
   margin-bottom: 10px;
 }
-
-// h2{
-//     line-height: 1.5em;
-// }
 .main_title {
   text-align   : center;
   margin-bottom: 75px;
@@ -79,7 +68,6 @@ h4 {
 .service_item:hover {
   background: #fcdc00;
 }
-
 // Skill animations
 @import url(https://fonts.googleapis.com/css?family=PT+Sans);
 
@@ -98,14 +86,11 @@ $purple: #9b59b6;
 $orange: #ffa500;
 $green : #27ae60;
 
-
-
 .mt_200 {
   margin-top: 16%;
 }
 
 $animation-delay: .7s;
-
 
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
@@ -258,7 +243,7 @@ $animation-delay: .7s;
   }
 
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -308,7 +293,7 @@ $animation-delay: .7s;
   }
 
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
 
@@ -358,7 +343,7 @@ $animation-delay: .7s;
   }
 
   100% {
-    width: 90%;
+    width: 95%;
   }
 }
 

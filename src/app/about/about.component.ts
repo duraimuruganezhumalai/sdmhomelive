@@ -16,7 +16,7 @@ export class AboutComponent implements OnInit {
     var lang = {
       "photoshop": "95%",
       "illustrator": "85%",
-      "lightroom": "90%",
+      "lightroom": "95%",
       "premiere": "95%",
       "aftereffect": "70%"
     };
