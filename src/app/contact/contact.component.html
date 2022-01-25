@@ -19,14 +19,14 @@
                 Get in touch
             </span>
             <div class="form-group error">
-                <label class="col-form-label">Name*</label>
+                <label class="col-form-label" id="name">Name*</label>
                 <input formControlName="name" type="text" class="form-control" placeholder="Enter your name">
                 <i *ngIf="name.valid && name.touched" class="fa fa-check-circle"></i>
                 <i *ngIf="name.invalid && name.touched" class="fa fa-exclamation-circle"></i>
                 <small *ngIf="name.invalid && name.touched" class="text-danger error-text">Name is required</small>
             </div>
             <div class="form-group error">
-                <label class="col-form-label">Email*</label>
+                <label class="col-form-label" id="email">Email*</label>
                 <input formControlName="email" type="text" class="form-control" placeholder="example@gmail.com">
                 <i *ngIf="email.valid && email.touched" class="fa fa-check-circle"></i>
                 <i *ngIf="email.invalid && email.touched" class="fa fa-exclamation-circle"></i>
@@ -34,7 +34,7 @@
                     email</small>
             </div>
             <div class="form-group error">
-                <label class="col-form-label">Phone*</label>
+                <label class="col-form-label" id="phone">Phone*</label>
                 <input formControlName="phone" type="tel" class="form-control" maxlength="10" placeholder="XXXXXXXXXX">
                 <i *ngIf="phone.valid && phone.touched" class="fa fa-check-circle"></i>
                 <i *ngIf="phone.invalid && phone.touched" class="fa fa-exclamation-circle"></i>
@@ -42,7 +42,7 @@
                     number</small>
             </div>
             <div class="form-group error">
-                <label class="col-form-label">Message*</label>
+                <label class="col-form-label" id="message">Message*</label>
                 <textarea formControlName="message" class="form-control" placeholder="Your message here..."></textarea>
                 <i *ngIf="message.valid && message.touched" class="fa fa-check-circle"></i>
                 <i *ngIf="message.invalid && message.touched" class="fa fa-exclamation-circle"></i>
